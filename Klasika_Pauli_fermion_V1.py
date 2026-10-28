@@ -74,15 +74,15 @@ from scipy.special import logsumexp
 
 FILES = (
     (
-        Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86.csv"),
+        Path("/data/loto7_4710_k86.csv"),
         4710,
     ),
     (
-        Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_2977.csv"),
+        Path("/data/loto7_4710_k86_loto_2977.csv"),
         2977,
     ),
     (
-        Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_plus_1733.csv"),
+        Path("/data/loto7_4710_k86_loto_plus_1733.csv"),
         1733,
     ),
 )
@@ -2270,7 +2270,7 @@ NLL je negativna log-verovatnoća u prirodnim logaritmima.
 Niži NLL označava bolji rezultat na tom skupu.
 
 CSV: loto7_4710_k86.csv
-NEXT: 06 11 13 23 28 31 37
+NEXT: 06 x 13 y 28 z 37
 Validacioni NLL: 17.18462465
 Odvojeni test NLL: 17.28842909
 Modelna verovatnoća NEXT: 2.57576645255e-06
@@ -2281,7 +2281,7 @@ Najduži uzastopni niz: 1
 Raspon kombinacije: 31
 
 CSV: loto7_4710_k86_loto_2977.csv
-NEXT: 08 10 12 21 22 24 27
+NEXT: 08 x 12 y 22 z 27
 Validacioni NLL: 17.26036423
 Odvojeni test NLL: 17.30834659
 Modelna verovatnoća NEXT: 1.98394798592e-06
@@ -2292,7 +2292,7 @@ Najduži uzastopni niz: 2
 Raspon kombinacije: 19
 
 CSV: loto7_4710_k86_loto_plus_1733.csv
-NEXT: 02 07 08 10 15 20 33
+NEXT: 02 x 08 y 15 z 33
 Validacioni NLL: 17.31509401
 Odvojeni test NLL: 17.30045856
 Modelna verovatnoća NEXT: 2.69673113843e-06
